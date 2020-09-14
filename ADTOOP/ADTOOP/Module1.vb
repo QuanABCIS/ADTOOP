@@ -1,12 +1,13 @@
 ﻿Module Module1
 
     Sub Main()
-        Dim ll As New LinkedList(10)
-        ll.AddNode(1)
-        ll.AddNode(2)
-        ll.AddNode(3)
-        ll.DeleteNode(1)
-        ll.FindNode(1)
+        Dim queue As New Queue(5)
+        queue.Enqueue(1)
+        queue.Enqueue(2)
+        queue.Enqueue(3)
+        queue.Enqueue(4)
+        queue.Dequeue()
+        queue.Dequeue()
         Console.ReadLine()
     End Sub
 
